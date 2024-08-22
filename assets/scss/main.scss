@@ -1,0 +1,62 @@
+@import "fonts";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+//MARK: general style
+body {
+  font-family: "sohne", sans-serif;
+  background-color: rgb(247 244 237);
+}
+//MARK:
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+//MARK: text decoration non
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.btn {
+  background-color: black;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 30px;
+}
+//MARK: header
+header {
+  // height: 10vh;
+  padding: 20px;
+  border-bottom: 1px solid black;
+  font-size: 14px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    height: 30px;
+  }
+  nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 720px) {
+  .sm-hidden {
+    display: none;
+  }
+}
+// MARK: main
+main {
+  min-height: 80vh;
+  h1 {
+    font-family: "GT Super", serif;
+  }
+}

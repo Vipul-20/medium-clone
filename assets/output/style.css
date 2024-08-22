@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "GT Super";
+  src: url(../fonts/gt-super-400-normal.woff);
+}
+@font-face {
+  font-family: "Sohne";
+  src: url(../fonts/sohne-400-normal.woff);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "sohne", sans-serif;
+  background-color: rgb(247, 244, 237);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 30px;
+}
+
+header {
+  padding: 20px;
+  border-bottom: 1px solid black;
+  font-size: 14px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  height: 30px;
+}
+header nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+  .sm-hidden {
+    display: none;
+  }
+}
+main {
+  min-height: 80vh;
+}
+main h1 {
+  font-family: "GT Super", serif;
+}
+
+/*# sourceMappingURL=style.css.map */
