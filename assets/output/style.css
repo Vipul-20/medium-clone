@@ -32,6 +32,7 @@ a {
   color: white;
   padding: 8px 12px;
   border-radius: 30px;
+  border: none;
 }
 
 header {
@@ -59,10 +60,34 @@ header nav {
   }
 }
 main {
+  background-color: greenyellow;
+}
+main .container {
   min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 40px;
 }
 main h1 {
   font-family: "GT Super", serif;
+  font-size: 110px;
+  font-weight: 400;
+  letter-spacing: -3px;
+  line-height: 0.9;
+}
+main p {
+  font-size: 22px;
+}
+main .btn {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 900px) {
+  main .btn {
+    background: red;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
